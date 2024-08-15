@@ -37,7 +37,7 @@ Este projeto é uma aplicação web que permite o gerenciamento de informações
 │ ├── init.py
 │ ├── conftest.py
 │ ├── test_conversion.py
-└── init_db.py````
+└── init_db.py
 
 ## Pré-requisitos
 
