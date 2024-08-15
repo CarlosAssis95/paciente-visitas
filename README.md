@@ -11,37 +11,32 @@ Este projeto é uma aplicação web que permite o gerenciamento de informações
 ## Estrutura do Projeto
 
 /projeto
-│
-├── /app                      
-│   ├── __init__.py
-│   ├── config.py             
-│   ├── main.py               
-│   ├── /models             
-│   │   ├── __init__.py
-│   │   ├── paciente.py
-│   │   └── visitas.py
-│   ├── /repositories         
-│   │   ├── __init__.py
-│   │   ├── paciente_repository.py
-│   │   └── visitas_repository.py
-│   ├── /routes               
-│   │   ├── __init__.py
-│   │   ├── paciente_routes.py
-│   │   └── visitas_routes.py
-│   └── /schemas              
-│       ├── __init__.py
-│       ├── paciente_schema.py
-│       └── visitas_schema.py
-│
-├── /cliente                  
-│   └── cliente.py            
-│
-├── /tests                    
-│   ├── __init__.py
-│   ├── conftest.py           
-│   ├── test_paciente.py     
-│   └── test_visitas.py       
-│
+├── /app
+│ ├── init.py
+│ ├── config.py
+│ ├── main.py
+│ ├── /models
+│ │ ├── init.py
+│ │ ├── paciente.py
+│ │ └── visitas.py
+│ ├── /repositories
+│ │ ├── init.py
+│ │ ├── paciente_repository.py
+│ │ └── visitas_repository.py
+│ ├── /routes
+│ │ ├── init.py
+│ │ ├── paciente_routes.py
+│ │ └── visitas_routes.py
+│ └── /schemas
+│ ├── init.py
+│ ├── paciente_schema.py
+│ └── visitas_schema.py
+├── /cliente
+│ └── cliente.py
+├── /tests
+│ ├── init.py
+│ ├── conftest.py
+│ ├── test_conversion.py
 └── init_db.py
 
 ## Pré-requisitos
@@ -78,10 +73,6 @@ python -m app.main
 ## Como Rodar o Cliente
 
 python -m cliente.cliente
-
-## Testes
-
-## Testes
 
 ## Testes
 
