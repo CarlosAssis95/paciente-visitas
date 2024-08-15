@@ -19,37 +19,41 @@ Certifique-se de ter os seguintes softwares instalados:
 
 1. Clone o repositório:
 
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd <NOME_DA_PASTA_DO_REPOSITORIO>
+```bash
+git clone <URL_DO_REPOSITORIO>
+cd <NOME_DA_PASTA_DO_REPOSITORIO>
+```   
 
 3. Instale as dependências:
 
-   ```bash
-   pip install Flask Flask-SQLAlchemy marshmallow requests xmltodict psycopg2
+```bash
+pip install Flask Flask-SQLAlchemy marshmallow requests xmltodict psycopg2
+```
 
 4. Crie o banco de dados no PostgreSQL e configure a URI de conexão no arquivo config.py:
    
-   ```bash
-   SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')
+```bash
+SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')
+```
 
 6. Inicialize o banco de dados executando o script:
 
-   ```bash
-   python init_db.py
+```bash
+python init_db.py
+```
 
 ## Como Rodar o Servidor
 
-   ```
-   python -m app.main
-   ```
+```bash
+python -m app.main
+```
 
 
 ## Como Rodar o Cliente
 
-   ```
-   python -m cliente.cliente
-   ```
+```bash
+python -m cliente.cliente
+```
 
 ## Testes
 
@@ -64,49 +68,51 @@ Para rodar os testes, siga os seguintes passos:
 
 Certifique-se de que todas as dependências estão instaladas. Você pode usar o seguinte comando:
    
-    ```
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
     
 
 2. **Execute os Testes**: 
 
 Utilize o seguinte comando para executar os testes:
 
-    ```
-    pytest
-    ```
+```bash
+pytest
+```
 
 Os resultados dos testes serão exibidos no terminal. Todos os testes devem passar para garantir que a aplicação está funcionando corretamente.
 
 
 ## Estrutura do Projeto
 
-```/projeto
-├── /app
+```
+projeto/
+├── app/
 │ ├── init.py
 │ ├── config.py
 │ ├── main.py
-│ ├── /models
+│ ├── models/
 │ │ ├── init.py
 │ │ ├── paciente.py
 │ │ └── visitas.py
-│ ├── /repositories
+│ ├── repositories/
 │ │ ├── init.py
 │ │ ├── paciente_repository.py
 │ │ └── visitas_repository.py
-│ ├── /routes
+│ ├── routes/
 │ │ ├── init.py
 │ │ ├── paciente_routes.py
 │ │ └── visitas_routes.py
-│ └── /schemas
+│ └── schemas/
 │ ├── init.py
 │ ├── paciente_schema.py
 │ └── visitas_schema.py
-├── /cliente
+├── cliente/
 │ └── cliente.py
-├── /tests
+├── tests/
 │ ├── init.py
 │ ├── conftest.py
 │ ├── test_conversion.py
 └── init_db.py
+```
