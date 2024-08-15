@@ -34,7 +34,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 5. Inicialize o banco de dados executando o script:
 
-  ```python init_db.py```
+   ```python init_db.py```
 
 ## Como Rodar o Servidor
 
