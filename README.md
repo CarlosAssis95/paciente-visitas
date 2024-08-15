@@ -59,7 +59,7 @@ Para rodar os testes, siga os seguintes passos:
 
 Certifique-se de que todas as dependências estão instaladas. Você pode usar o seguinte comando:
 
-    ```bash
+    ```
     pip install -r requirements.txt
     
 
@@ -67,7 +67,7 @@ Certifique-se de que todas as dependências estão instaladas. Você pode usar o
 
 Utilize o seguinte comando para executar os testes:
 
-    ```bash
+    ```
     pytest
     
 
