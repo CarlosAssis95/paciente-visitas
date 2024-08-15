@@ -59,16 +59,14 @@ Para rodar os testes, siga os seguintes passos:
 
 Certifique-se de que todas as dependências estão instaladas. Você pode usar o seguinte comando:
 
-    ```
-    pip install -r requirements.txt
+    ```pip install -r requirements.txt
     
 
 2. **Execute os Testes**: 
 
 Utilize o seguinte comando para executar os testes:
 
-    ```
-    pytest
+    ```pytest
     
 
 Os resultados dos testes serão exibidos no terminal. Todos os testes devem passar para garantir que a aplicação está funcionando corretamente.
