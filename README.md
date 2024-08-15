@@ -39,13 +39,16 @@ python init_db.py
 
 python -m app.main
 
+
 ## Como Rodar o Cliente
 
 python -m cliente.cliente
 
+
 ## Testes
 
 O projeto inclui testes automatizados para garantir que a aplicação funcione conforme o esperado. Os testes são realizados utilizando a biblioteca [pytest](https://docs.pytest.org/en/stable/).
+
 
 ### Executando os Testes
 
@@ -68,6 +71,7 @@ Utilize o seguinte comando para executar os testes:
     ```
 
 Os resultados dos testes serão exibidos no terminal. Todos os testes devem passar para garantir que a aplicação está funcionando corretamente.
+
 
 ## Estrutura do Projeto
 
