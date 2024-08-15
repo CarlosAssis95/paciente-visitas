@@ -61,7 +61,7 @@ Certifique-se de que todas as dependências estão instaladas. Você pode usar o
 
     ```bash
     pip install -r requirements.txt
-    ```
+    
 
 2. **Execute os Testes**: 
 
@@ -69,7 +69,7 @@ Utilize o seguinte comando para executar os testes:
 
     ```bash
     pytest
-    ```
+    
 
 Os resultados dos testes serão exibidos no terminal. Todos os testes devem passar para garantir que a aplicação está funcionando corretamente.
 
