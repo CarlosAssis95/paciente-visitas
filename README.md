@@ -35,16 +35,19 @@ Certifique-se de ter os seguintes softwares instalados:
 
 6. Inicialize o banco de dados executando o script:
 
-   ```python init_db.py```
+   ```bash
+   python init_db.py
 
 ## Como Rodar o Servidor
 
-  ```python -m app.main```
+   ```
+   python -m app.main
+   ```
 
 
 ## Como Rodar o Cliente
 
-   ```python -m cliente.cliente```
+   python -m cliente.cliente
 
 
 ## Testes
