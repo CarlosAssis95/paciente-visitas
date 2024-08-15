@@ -24,19 +24,19 @@ git clone <URL_DO_REPOSITORIO>
 cd <NOME_DA_PASTA_DO_REPOSITORIO>
 ```   
 
-3. Instale as dependências:
+2. Instale as dependências:
 
 ```bash
 pip install Flask Flask-SQLAlchemy marshmallow requests xmltodict psycopg2
 ```
 
-4. Crie o banco de dados no PostgreSQL e configure a URI de conexão no arquivo config.py:
+3. Crie o banco de dados no PostgreSQL e configure a URI de conexão no arquivo config.py:
    
 ```bash
 SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')
 ```
 
-6. Inicialize o banco de dados executando o script:
+4. Inicialize o banco de dados executando o script:
 
 ```bash
 python init_db.py
