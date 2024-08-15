@@ -8,37 +8,6 @@ Este projeto é uma aplicação web que permite o gerenciamento de informações
 - Registrar visitas médicas para cada paciente.
 - Recuperar informações sobre pacientes e suas visitas.
 
-## Estrutura do Projeto
-
-```/projeto
-├── /app
-│ ├── init.py
-│ ├── config.py
-│ ├── main.py
-│ ├── /models
-│ │ ├── init.py
-│ │ ├── paciente.py
-│ │ └── visitas.py
-│ ├── /repositories
-│ │ ├── init.py
-│ │ ├── paciente_repository.py
-│ │ └── visitas_repository.py
-│ ├── /routes
-│ │ ├── init.py
-│ │ ├── paciente_routes.py
-│ │ └── visitas_routes.py
-│ └── /schemas
-│ ├── init.py
-│ ├── paciente_schema.py
-│ └── visitas_schema.py
-├── /cliente
-│ └── cliente.py
-├── /tests
-│ ├── init.py
-│ ├── conftest.py
-│ ├── test_conversion.py
-└── init_db.py
-
 ## Pré-requisitos
 
 Certifique-se de ter os seguintes softwares instalados:
@@ -99,3 +68,34 @@ Utilize o seguinte comando para executar os testes:
     ```
 
 Os resultados dos testes serão exibidos no terminal. Todos os testes devem passar para garantir que a aplicação está funcionando corretamente.
+
+## Estrutura do Projeto
+
+```/projeto
+├── /app
+│ ├── init.py
+│ ├── config.py
+│ ├── main.py
+│ ├── /models
+│ │ ├── init.py
+│ │ ├── paciente.py
+│ │ └── visitas.py
+│ ├── /repositories
+│ │ ├── init.py
+│ │ ├── paciente_repository.py
+│ │ └── visitas_repository.py
+│ ├── /routes
+│ │ ├── init.py
+│ │ ├── paciente_routes.py
+│ │ └── visitas_routes.py
+│ └── /schemas
+│ ├── init.py
+│ ├── paciente_schema.py
+│ └── visitas_schema.py
+├── /cliente
+│ └── cliente.py
+├── /tests
+│ ├── init.py
+│ ├── conftest.py
+│ ├── test_conversion.py
+└── init_db.py
