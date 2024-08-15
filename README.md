@@ -29,19 +29,19 @@ Certifique-se de ter os seguintes softwares instalados:
    pip install Flask Flask-SQLAlchemy marshmallow requests xmltodict psycopg2
 
 4. Crie o banco de dados no PostgreSQL e configure a URI de conexão no arquivo config.py:
+   
+  ```bash
+  SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')
 
-  
-  - SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')
+## Inicialize o banco de dados executando o script:
 
-5. Inicialize o banco de dados executando o script:
-
-  
-  - python init_db.py
+  ```bash
+  python init_db.py
 
 ## Como Rodar o Servidor
 
-  
-  - python -m app.main
+  ```bash
+  python -m app.main
 
 
 ## Como Rodar o Cliente
