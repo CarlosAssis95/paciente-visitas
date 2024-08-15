@@ -30,7 +30,7 @@ Certifique-se de ter os seguintes softwares instalados:
 
 4. Crie o banco de dados no PostgreSQL e configure a URI de conexão no arquivo config.py:
    
-  ```SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')```
+  ``` SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL', 'postgresql://usuario:senha@localhost/nome_do_banco')```
 
 5. Inicialize o banco de dados executando o script:
 
